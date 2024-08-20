@@ -1,0 +1,28 @@
+[
+  {
+    "id": "development-studies",
+    "name": "College of Development Studies",
+    "description": "This college focuses on various aspects of development studies."
+  },
+  {
+    "id": "finance-management",
+    "name": "College of Finance and Management Studies",
+    "description": "This college specializes in finance and management studies."
+  },
+  {
+    "id": "science-technology",
+    "name": "College of Science and Technology",
+    "description": "This college covers various fields in science and technology."
+  },
+  {
+    "id": "law",
+    "name": "School of Law",
+    "description": "This school offers legal studies and related programs."
+  },
+  {
+    "id": "public-policy",
+    "name": "School of Leadership & Public Policy Studies",
+    "description": "This school focuses on leadership and public policy."
+  }
+
+]

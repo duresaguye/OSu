@@ -9,7 +9,7 @@ const Home = () => {
 
       {/* Introduction Section with Background Image */}
       <section
-        className="relative bg-cover bg-center  py-52 border-t-2"
+        className="relative bg-cover bg-center  py-52  text-white"
        style={{ backgroundImage: `url(${backgroundImage})` }}
 
 
@@ -38,7 +38,7 @@ const Home = () => {
             <span>Website</span>
           </a>
         </div>
-    <div className="mx-auto max-w-4xl border-x border-y rounded-md border-gray-800 ">
+    <div className="mx-auto max-w-4xl  border-gray-800 text-white">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           <div className="bg-gradient-to-r from-blue-400 to-blue-600  p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center flex-col">
             <FaMapMarkedAlt className="text-6xl mb-4" />
@@ -67,10 +67,10 @@ const Home = () => {
 
 
       {/* Statistics Section */}
-     <section className=" p-16">
+     <section className=" p-16 ">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-12 ">University Statistics</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
           <div className="bg-gradient-to-r from-blue-400 to-blue-600  p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center flex-col">
             <FaUserGraduate className="text-6xl mb-4" />
             <h3 className="text-4xl font-bold mb-2">500+</h3>
