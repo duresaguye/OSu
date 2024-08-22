@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-300  text-lg p-4 top-0 sticky z-50 ">
+    <header className="bg-gray-300   text-lg p-4 top-0 sticky z-50 shadow-2xl ">
       <nav className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <img src={logo} alt="OSU Logo" className="w-12 h-12 rounded-full border-2 border-white shadow-md" />

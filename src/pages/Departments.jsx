@@ -52,7 +52,7 @@ const Departments = () => {
   );
 
   return (
-    <div className="bg-gray-200 min-h-screen p-6">
+    <div className="bg-gray-300 min-h-screen p-6">
       <h1 className="text-4xl font-extrabold text-gray-900 mb-6 text-center">ACADEMICS</h1>
       
       {/* Search Input */}
