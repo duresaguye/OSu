@@ -10,20 +10,20 @@ import {
 const Departments = () => {
   const [departments, setDepartments] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
-  const [loading, setLoading] = useState(true); // Add a loading state
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     // Fetch department data from the JSON file
     fetch('/Data/Academics.json')
       .then(response => response.json())
       .then(data => {
-        console.log('Fetched data:', data); // Debugging: Log fetched data
+        
         setDepartments(data);
-        setLoading(false); // Set loading to false once data is fetched
+        setLoading(false); 
       })
       .catch(error => {
         console.error('Error fetching data:', error);
-        setLoading(false); // Set loading to false in case of error
+        setLoading(false); 
       });
   }, []);
 
@@ -77,7 +77,7 @@ const Departments = () => {
               <li 
                 key={dept.id} 
                 className="bg-gray-300 text-gray-900 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300">
-                <Link to={`/department/${dept.id}`} className="block p-6">
+                <Link>
                   <div className="flex items-center mb-4">
                     {departmentIcons[dept.id] || <FaQuestionCircle className="text-gray-500 text-4xl" />} {/* Default icon */}
                     <h2 className="text-2xl font-semibold ml-4 mb-4">{dept.id}</h2>
@@ -86,7 +86,7 @@ const Departments = () => {
                   <p className="text-gray-800 mb-4">{dept.name}</p>
                   <Link 
                     to={`/department/${dept.id}`}
-                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300"
+                    className="inline-flex items-center px-3 py-2 mb-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300"
                   >
                     See More
                     <svg className="w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

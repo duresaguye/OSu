@@ -11,7 +11,7 @@ const NewsFetcher = () => {
   useEffect(() => {
     const fetchNewsAndEvents = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/news');
+        const response = await axios.get('https://osu-backend.vercel.app/api/news');
         setNews(response.data.newsItems || []);
         setEvents(response.data.upcomingEvents || []);
       } catch (error) {
