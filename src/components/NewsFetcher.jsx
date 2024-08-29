@@ -15,7 +15,7 @@ const NewsFetcher = () => {
         setNews(response.data.newsItems || []);
         setEvents(response.data.upcomingEvents || []);
       } catch (error) {
-        console.error('Error fetching news and events:', error);
+        
         setError('Error fetching news and events');
       } finally {
         setLoading(false);
