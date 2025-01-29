@@ -52,25 +52,43 @@
       {
         "name": "Department of Finance",
         "courses": ["Corporate Finance", "Investment Analysis", "Financial Markets", "Banking", "Financial Risk Management"]
+      },
+      {
+        "name": "Department of Procurement and Project Management",
+        "courses": ["Procurement Management", "Project Planning", "Supply Chain Logistics", "Project Risk Management", "Sustainability in Project Management"]
+      },
+      {
+        "name": "Department of HRM and Leadership",
+        "courses": ["Human Resource Management", "Leadership Development", "Organizational Behavior", "Conflict Management", "Strategic HRM"]
+      },
+      {
+        "name": "Department of Cooperative Management",
+        "courses": ["Cooperative Governance", "Cooperative Financial Management", "Cooperative Business", "Cooperative Law", "Cooperative Project Management"]
+      },
+      {
+        "name": "Department of Tourism Management",
+        "courses": ["Tourism Planning", "Sustainable Tourism", "Hospitality Management", "Tourism Marketing", "Cultural Tourism"]
       }
     ]
   },
   {
     "id": "science-technology",
     "name": "College of Science and Technology",
-    "description": "This college covers various fields in science and technology.",
+    "description": "The College of Science and Technology offers high-quality undergraduate programs in Information Technology, Computer Science, and Information Systems. It also provides a graduate program in Information Technology, preparing students for success in the workplace or further studies. The college emphasizes personalized learning experiences, critical thinking, problem-solving, and hands-on laboratory work.",
+    "mission": "Dedicated to capacity building, fostering the creation and continuity of reform initiatives within the region and beyond. The college promotes technology and quality of life through education, training, research, consultancy, and community services, aiming to drive innovation and progress in a global context.",
+    "vision": "To be a leading hub of innovation, excellence, and advancement in scientific and technological domains.",
     "departments": [
+      {
+        "name": "Department of Information Technology",
+        "courses": ["Network Security", "Database Management Systems", "Web Development", "Information Systems Analysis and Design", "IT Project Management"]
+      },
       {
         "name": "Department of Computer Science",
         "courses": ["Introduction to Programming", "Data Structures", "Algorithms", "Software Engineering", "Database Systems"]
       },
       {
-        "name": "Department of Electrical Engineering",
-        "courses": ["Circuit Analysis", "Digital Electronics", "Power Systems", "Control Systems", "Renewable Energy"]
-      },
-      {
-        "name": "Department of Civil Engineering",
-        "courses": ["Structural Analysis", "Concrete Technology", "Soil Mechanics", "Transportation Engineering", "Construction Management"]
+        "name": "Department of Information Systems",
+        "courses": ["Information Systems Management", "Business Process Management", "Enterprise Systems", "Data Analytics", "E-Business Strategies"]
       }
     ]
   },
@@ -152,30 +170,12 @@
     "id": "Department of Rural Development",
     "name": "Department of Rural Development",
     "description": "This department focuses on rural development programs and policies.",
-    "courses": ["Rural Sociology", "Community Development", "Rural Development Policies", "Sustainable Agriculture", "Rural Poverty Reduction"]
+    "courses": ["Rural Sociology", "Community Development", "Rural Development Policies", "Sustainable Development", "Poverty Alleviation"]
   },
   {
-    "id": "OROMO FOCKLORE AND AFAAN OROMO DEPARTMENT",
-    "name": "OROMO FOLKLORE AND AFAAN OROMO DEPARTMENT",
-    "description": "This department focuses on Oromo culture, language, and folklore.",
-    "courses": ["Afaan Oromo Language", "Oromo Folklore", "Cultural Studies", "Traditional Oromo Music", "History of the Oromo People"]
-  },
-  {
-    "id": "Dept of Accounting & Finance",
-    "name": "Dept of Accounting & Finance",
-    "description": "This department focuses on accounting and finance.",
-    "courses": ["Financial Accounting", "Corporate Finance", "Financial Markets", "Investment Analysis", "Accounting Information Systems"]
-  },
-  {
-    "id": "Dep. of Procurement and Property Mgt",
-    "name": "Dep. of Procurement and Property Management",
-    "description": "This department specializes in procurement and property management.",
-    "courses": ["Procurement Management", "Supply Chain Logistics", "Contract Law", "Property Management", "Public Procurement Policies"]
-  },
-  {
-    "id": "Department of Management",
-    "name": "Department of Management",
-    "description": "This department specializes in management and leadership.",
-    "courses": ["Strategic Management", "Organizational Behavior", "Human Resource Management", "Business Ethics", "Operations Management"]
+    "id": "Department of Geography",
+    "name": "Department of Geography",
+    "description": "This department provides studies related to geography, environmental sustainability, and spatial sciences.",
+    "courses": ["Physical Geography", "Geographical Information Systems", "Environmental Management", "Climatology", "Urban Geography"]
   }
 ]
